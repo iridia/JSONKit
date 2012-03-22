@@ -20,15 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF586BCB1519B72600F308E2 /* libJSONKitTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONKitTouch.a; path = "/Users/Shared/evadne/Products/Release-iphoneos/libJSONKitTouch.a"; sourceTree = "<absolute>"; };
 		FF586BCE1519B72600F308E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FF586BEA1519B7B700F308E2 /* JSONKitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONKitX.framework; path = /Users/Shared/evadne/Products/Release/JSONKitX.framework; sourceTree = "<absolute>"; };
 		FF586C011519B83900F308E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		FF586C021519B83900F308E2 /* JSONKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONKit-Prefix.pch"; path = "JSONKit/JSONKit-Prefix.pch"; sourceTree = "<group>"; };
 		FF586C031519B83900F308E2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = "<group>"; };
 		FF586C041519B83900F308E2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = "<group>"; };
 		FF586C051519B83900F308E2 /* JSONKitX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JSONKitX-Info.plist"; path = "JSONKit/JSONKitX-Info.plist"; sourceTree = "<group>"; };
 		FFB2F6C4151BA8F300FF2AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONKitTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONKitX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,19 +57,29 @@
 				FF586C021519B83900F308E2 /* JSONKit-Prefix.pch */,
 				FF586C031519B83900F308E2 /* JSONKit.h */,
 				FF586C041519B83900F308E2 /* JSONKit.m */,
-				FF586C051519B83900F308E2 /* JSONKitX-Info.plist */,
-				FF586C001519B83900F308E2 /* InfoPlist.strings */,
-				FF586BCD1519B72600F308E2 /* Frameworks */,
+				FF586BCD1519B72600F308E2 /* JSONKitTouch */,
+				FFB2F6D7151BAA0800FF2AA4 /* JSONKitX */,
 			);
 			sourceTree = "<group>";
 		};
-		FF586BCD1519B72600F308E2 /* Frameworks */ = {
+		FF586BCD1519B72600F308E2 /* JSONKitTouch */ = {
 			isa = PBXGroup;
 			children = (
+				FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */,
 				FF586BCE1519B72600F308E2 /* Foundation.framework */,
+			);
+			name = JSONKitTouch;
+			sourceTree = "<group>";
+		};
+		FFB2F6D7151BAA0800FF2AA4 /* JSONKitX */ = {
+			isa = PBXGroup;
+			children = (
+				FF586C051519B83900F308E2 /* JSONKitX-Info.plist */,
+				FF586C001519B83900F308E2 /* InfoPlist.strings */,
+				FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */,
 				FFB2F6C4151BA8F300FF2AA4 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = JSONKitX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +120,7 @@
 			);
 			name = JSONKitTouch;
 			productName = JSONKit;
-			productReference = FF586BCB1519B72600F308E2 /* libJSONKitTouch.a */;
+			productReference = FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FF586BE91519B7B700F308E2 /* JSONKitX */ = {
@@ -128,7 +138,7 @@
 			);
 			name = JSONKitX;
 			productName = JSONKitX;
-			productReference = FF586BEA1519B7B700F308E2 /* JSONKitX.framework */;
+			productReference = FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
