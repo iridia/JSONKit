@@ -17,18 +17,34 @@
 		FF586C0C1519B84700F308E2 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF586C031519B83900F308E2 /* JSONKit.h */; };
 		FF586C0D1519B84900F308E2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FF586C041519B83900F308E2 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-objc-isa-usage"; }; };
 		FFB2F6C5151BA8F300FF2AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB2F6C4151BA8F300FF2AA4 /* Foundation.framework */; };
+		FFB2F6E0151BAACA00FF2AA4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB2F6DF151BAACA00FF2AA4 /* SenTestingKit.framework */; };
+		FFB2F6E2151BAACA00FF2AA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB2F6E1151BAACA00FF2AA4 /* Cocoa.framework */; };
+		FFB2F6EC151BAACA00FF2AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFB2F6EA151BAACA00FF2AA4 /* InfoPlist.strings */; };
+		FFB2F6EF151BAACA00FF2AA4 /* JSONKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB2F6EE151BAACA00FF2AA4 /* JSONKitTest.m */; };
+		FFB2F6F4151BB03500FF2AA4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FF586C041519B83900F308E2 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-objc-isa-usage"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF586BCB1519B72600F308E2 /* libJSONKitTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONKitTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF586BCE1519B72600F308E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FF586BEA1519B7B700F308E2 /* JSONKitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONKitX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF586C011519B83900F308E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		FF586C021519B83900F308E2 /* JSONKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSONKit-Prefix.pch"; path = "JSONKit/JSONKit-Prefix.pch"; sourceTree = "<group>"; };
 		FF586C031519B83900F308E2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = "<group>"; };
 		FF586C041519B83900F308E2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = "<group>"; };
 		FF586C051519B83900F308E2 /* JSONKitX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JSONKitX-Info.plist"; path = "JSONKit/JSONKitX-Info.plist"; sourceTree = "<group>"; };
 		FFB2F6C4151BA8F300FF2AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONKitTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONKitX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2F6DD151BAACA00FF2AA4 /* JSONKitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONKitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2F6DF151BAACA00FF2AA4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FFB2F6E1151BAACA00FF2AA4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FFB2F6E4151BAACA00FF2AA4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FFB2F6E5151BAACA00FF2AA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FFB2F6E6151BAACA00FF2AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFB2F6E9151BAACA00FF2AA4 /* JSONKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONKitTest-Info.plist"; sourceTree = "<group>"; };
+		FFB2F6EB151BAACA00FF2AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFB2F6ED151BAACA00FF2AA4 /* JSONKitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONKitTest.h; path = JSONKitTest/JSONKitTest.h; sourceTree = "<group>"; };
+		FFB2F6EE151BAACA00FF2AA4 /* JSONKitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JSONKitTest.m; path = JSONKitTest/JSONKitTest.m; sourceTree = "<group>"; };
+		FFB2F6F0151BAACA00FF2AA4 /* JSONKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONKitTest-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +64,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFB2F6D9151BAACA00FF2AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB2F6E0151BAACA00FF2AA4 /* SenTestingKit.framework in Frameworks */,
+				FFB2F6E2151BAACA00FF2AA4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,29 +82,64 @@
 				FF586C021519B83900F308E2 /* JSONKit-Prefix.pch */,
 				FF586C031519B83900F308E2 /* JSONKit.h */,
 				FF586C041519B83900F308E2 /* JSONKit.m */,
+				FFB2F6ED151BAACA00FF2AA4 /* JSONKitTest.h */,
+				FFB2F6EE151BAACA00FF2AA4 /* JSONKitTest.m */,
+				FF586BCD1519B72600F308E2 /* JSONKitTouch */,
+				FFB2F6D7151BAA0800FF2AA4 /* JSONKitX */,
+				FFB2F6E7151BAACA00FF2AA4 /* JSONKitTest */,
+				FFB2F6DE151BAACA00FF2AA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF586BCD1519B72600F308E2 /* JSONKitTouch */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */,
+				FF586BCE1519B72600F308E2 /* Foundation.framework */,
+			);
+			name = JSONKitTouch;
+			sourceTree = "<group>";
+		};
+		FFB2F6D7151BAA0800FF2AA4 /* JSONKitX */ = {
+			isa = PBXGroup;
+			children = (
 				FF586C051519B83900F308E2 /* JSONKitX-Info.plist */,
 				FF586C001519B83900F308E2 /* InfoPlist.strings */,
-				FF586BCD1519B72600F308E2 /* Frameworks */,
-				FF586BCC1519B72600F308E2 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FF586BCC1519B72600F308E2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF586BCB1519B72600F308E2 /* libJSONKitTouch.a */,
-				FF586BEA1519B7B700F308E2 /* JSONKitX.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FF586BCD1519B72600F308E2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FF586BCE1519B72600F308E2 /* Foundation.framework */,
+				FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */,
 				FFB2F6C4151BA8F300FF2AA4 /* Foundation.framework */,
 			);
+			name = JSONKitX;
+			sourceTree = "<group>";
+		};
+		FFB2F6DE151BAACA00FF2AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2F6DF151BAACA00FF2AA4 /* SenTestingKit.framework */,
+				FFB2F6E1151BAACA00FF2AA4 /* Cocoa.framework */,
+				FFB2F6E3151BAACA00FF2AA4 /* Other Frameworks */,
+			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB2F6E3151BAACA00FF2AA4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2F6E4151BAACA00FF2AA4 /* AppKit.framework */,
+				FFB2F6E5151BAACA00FF2AA4 /* CoreData.framework */,
+				FFB2F6E6151BAACA00FF2AA4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FFB2F6E7151BAACA00FF2AA4 /* JSONKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2F6E9151BAACA00FF2AA4 /* JSONKitTest-Info.plist */,
+				FFB2F6EA151BAACA00FF2AA4 /* InfoPlist.strings */,
+				FFB2F6F0151BAACA00FF2AA4 /* JSONKitTest-Prefix.pch */,
+				FFB2F6DD151BAACA00FF2AA4 /* JSONKitTest.octest */,
+			);
+			path = JSONKitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +180,7 @@
 			);
 			name = JSONKitTouch;
 			productName = JSONKit;
-			productReference = FF586BCB1519B72600F308E2 /* libJSONKitTouch.a */;
+			productReference = FFB2F6D4151BA9FD00FF2AA4 /* libJSONKitTouch.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FF586BE91519B7B700F308E2 /* JSONKitX */ = {
@@ -138,8 +198,26 @@
 			);
 			name = JSONKitX;
 			productName = JSONKitX;
-			productReference = FF586BEA1519B7B700F308E2 /* JSONKitX.framework */;
+			productReference = FFB2F6D5151BA9FD00FF2AA4 /* JSONKitX.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		FFB2F6DC151BAACA00FF2AA4 /* JSONKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB2F6F1151BAACA00FF2AA4 /* Build configuration list for PBXNativeTarget "JSONKitTest" */;
+			buildPhases = (
+				FFB2F6D8151BAACA00FF2AA4 /* Sources */,
+				FFB2F6D9151BAACA00FF2AA4 /* Frameworks */,
+				FFB2F6DA151BAACA00FF2AA4 /* Resources */,
+				FFB2F6DB151BAACA00FF2AA4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONKitTest;
+			productName = JSONKitTest;
+			productReference = FFB2F6DD151BAACA00FF2AA4 /* JSONKitTest.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -158,12 +236,13 @@
 				en,
 			);
 			mainGroup = FF586BC01519B72600F308E2;
-			productRefGroup = FF586BCC1519B72600F308E2 /* Products */;
+			productRefGroup = FF586BC01519B72600F308E2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FF586BCA1519B72600F308E2 /* JSONKitTouch */,
 				FF586BE91519B7B700F308E2 /* JSONKitX */,
+				FFB2F6DC151BAACA00FF2AA4 /* JSONKitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -178,7 +257,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFB2F6DA151BAACA00FF2AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB2F6EC151BAACA00FF2AA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFB2F6DB151BAACA00FF2AA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF586BC71519B72600F308E2 /* Sources */ = {
@@ -197,6 +300,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFB2F6D8151BAACA00FF2AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB2F6F4151BB03500FF2AA4 /* JSONKit.m in Sources */,
+				FFB2F6EF151BAACA00FF2AA4 /* JSONKitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -207,6 +319,14 @@
 			);
 			name = InfoPlist.strings;
 			path = JSONKit/en.lproj;
+			sourceTree = "<group>";
+		};
+		FFB2F6EA151BAACA00FF2AA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB2F6EB151BAACA00FF2AA4 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,6 +446,42 @@
 			};
 			name = Release;
 		};
+		FFB2F6F2151BAACA00FF2AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONKitTest/JSONKitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JSONKitTest/JSONKitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FFB2F6F3151BAACA00FF2AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONKitTest/JSONKitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JSONKitTest/JSONKitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +511,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FFB2F6F1151BAACA00FF2AA4 /* Build configuration list for PBXNativeTarget "JSONKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2F6F2151BAACA00FF2AA4 /* Debug */,
+				FFB2F6F3151BAACA00FF2AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
